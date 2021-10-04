@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<header>
+    Contactformulier
+</header>    
+<head>
+    <title>Contactformulier</title>
+    <link rel="stylesheet" type= "text/css" href="styles.css"> 
+    </head>
+
+
+    <body>
+   
+ 
+    <div class="Eten en drinken">
+            
+    
+        <h3>Eten en drinken</h3>
+    <ul>
+        <li><a class ="active" href = "#Groenten"> Groenten</a></li>  
+        <li><a href ="#Vlees">Vlees</a></li>
+        <li><a href= "#Vis">Vis</a></li>
+        <li><a href= "#Warme dranken">Warme dranken</a></li>
+        <li><a href= "Koude dranken">Koude dranken</a></li>
+         
+    </ul>
+    </div>
+    <a href="contact.html">contact</a>
+    <form name="contact" method="POST" data-netlife="true">
+    <p>
+        <label> Naam: <input type= "text" name="naam" /></label>
+    </p>    
+    <p>
+        <label> Email: <input type="email" name="email" /></label>
+    </p>
+    <p>
+        <label>Telefoonnr: <input type="tel" name="tel"> </label> 
+    </p>
+    <p>
+        <label>Leeftijd: <input type="leeftijd" name="leeftijd"></label> 
+    </p> 
+    <p>
+        <label>Geboortedatum: <input type="geboortedatum" name="geboortedatum"></label>
+    </p>   
+    
+   <p> Geslacht:
+        <label>vrouw</label>
+        <input name="btn" type="radio">
+        <label>man</label>
+       <input name="btn" type="radio">
+       <label>gender neutraal</label>
+       <input name="btn" type="radio">
+    </p>
+    <p> Favoriete cuisine:
+        <label>Frans: <input type= "checkbox" name="Frans"></label>
+        <label>Italiaans: <input type= "checkbox" name="Italiaans"></label> 
+        <label>Spaans: <input type= "checkbox" name="Spaans"></label> 
+        <label>Arabisch: <input type= "checkbox" name="Arabisch"></label> 
+    </p>   
+    <p>
+        <label>Favoriete kleur schort: <input type= "color" id ="color-picker" name ="color" value = "# e66465"></label>   
+        <input type="submit" >
+    </p>
+    <p>
+        <label>Biografie: <textarea name="Biografie"></textarea></label>
+    </p>
+    <p>
+        <label>Upload je recept: <input type="file" name= "upload je recept"></label>
+        <input type="submit">
+    </p>
+  
+    <p> 
+        <label>Webpage: <input type="url" id="webpage" name="webpage"></label>
+        <input type="submit">
+    </p>
+    <p>        
+        <button type="submit">Send</button>
+    </p>
+    <p>
+        <button type="reset">reset</button>
+    </p>
+    </form>  
+  
+    </body>
+
+    </html>
